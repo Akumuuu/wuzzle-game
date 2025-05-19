@@ -185,7 +185,7 @@ export function useGameState({ validWords }: UseGameStateProps) {
         }).join('');
       }),
       '',
-      '🎯 Play now at: https://wuzzle.app'
+      '🎯 Play now at: https://wuzzle-game.netlify.app/'
     ].join('\n');
     
     navigator.clipboard.writeText(result)
